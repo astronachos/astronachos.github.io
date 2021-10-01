@@ -1,0 +1,8 @@
+{{ if .Text }}
+<figure class="align-center">
+{{ end }}
+<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" caption="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{ if .Text }}
+<figcaption><p>{{ .Text }}</p></figcaption>
+</figure>
+{{ end }}

@@ -1,0 +1,83 @@
+baseURL: "https://astronachos.com/"
+languageCode: 'en-us'
+title: Astro Nachos
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Astro Nachos
+  description: "A development blog about creating interactive atmospheres and scapes of a musical and visual nature."
+  keywords: [gamedev, devlog]
+  images: ["/meta/og.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/meta/favicon.ico"
+    favicon16x16: "/meta/favicon-16x16.png"
+    favicon32x32: "/meta/favicon-32x32.png"
+    apple_touch_icon: "/meta/apple-touch-icon.png"
+
+  label:
+    icon: /meta/apple-touch-icon.png
+
+  homeInfoParams:
+    Title: "Hi there, astronaut \U0001F44B"
+    Content: "In front of you is a compact development studio.\n\nThe studio's mission is to convey stories, atmospheres, worlds expressed in the form of creative works of a visual, musical and interactive nature to the public. Gain experience and improve skills to create something truly meaningful that will leave a cultural mark in history and in people's hearts."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/astrochili"
+    - name: twitter
+      url: "https://twitter.com/astronachos"
+    - name: telegram
+      url: "https://t.me/astronachos"
+    - name: mastodon
+      url: "https://mastodon.gamedev.place/@astronachos"
+    - name: youtube
+      url: "https://youtube.com/@astronachos"
+    - name: itchio
+      url: "https://astrochili.itch.io/"
+
+menu:
+  main:
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: catsday
+      name: catsday
+      url: https://astronachos.com/catsday/
+      weight: 30
+    - identifier: defold
+      name: assets
+      url: https://defold.com/authors/82dec81b3353206316cb7c95e847450f/
+      weight: 40
+    - identifier: website
+      name: author
+      url: https://romansilin.com
+      weight: 50
+
+markup:
+  highlight:
+    codeFences: true
+    noClasses: false
