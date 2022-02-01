@@ -125,7 +125,7 @@ app_icon_152x152 = /misc/ios/AppIcon.appiconset/kawaii-76@2x.png
 app_icon_167x167 = /misc/ios/AppIcon.appiconset/kawaii-83.5@2x.png
 app_icon_120x120 = /misc/ios/AppIcon.appiconset/kawaii-60@2x.png
 app_icon_180x180 = /misc/ios/AppIcon.appiconset/kawaii-60@3x.png
-bundle_version = 20
+bundle_version = 21
 icons_asset = /misc/ios/Assets.car
 
 [android]
