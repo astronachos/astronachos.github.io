@@ -125,11 +125,11 @@ app_icon_152x152 = /misc/ios/AppIcon.appiconset/kawaii-76@2x.png
 app_icon_167x167 = /misc/ios/AppIcon.appiconset/kawaii-83.5@2x.png
 app_icon_120x120 = /misc/ios/AppIcon.appiconset/kawaii-60@2x.png
 app_icon_180x180 = /misc/ios/AppIcon.appiconset/kawaii-60@3x.png
-bundle_version = 21
+bundle_version = 23
 icons_asset = /misc/ios/Assets.car
 
 [android]
-version_code = 1
+version_code = 23
 minimum_sdk_version = 16
 target_sdk_version = 30
 package = com.astronachos.kawaii
@@ -150,7 +150,7 @@ app_icon_36x36 = /misc/android/icons/icon_sdpi.png
 infoplist = /builtins/manifests/osx/Info.plist
 bundle_identifier = com.astronachos.kawaii
 bundle_version = 1
-default_language = en
+default_language = ru
 localizations = en
 app_icon = /misc/macos/AppIcon.icns
 
@@ -169,6 +169,7 @@ scale_mode = stretch
 
 [particle_fx]
 max_count = 64
+max_emitter_count = 64
 max_particle_count = 1024
 
 [iap]
