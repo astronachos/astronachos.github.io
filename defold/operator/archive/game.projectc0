@@ -1,6 +1,6 @@
 [project]
-title = Defold Operator
-version = 1.0
+title = Operator
+version = 1.1
 write_log = 0
 compress_archive = 1
 publisher = unnamed
