@@ -31,7 +31,7 @@ type = 3D
 use_fixed_timestep = 0
 gravity_y = -10
 debug = 0
-debug_alpha = 0.2
+debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
 gravity_z = 0
@@ -75,7 +75,7 @@ use_thread = 1
 
 [resource]
 http_cache = 0
-max_resources = 2048
+max_resources = 1024
 
 [input]
 repeat_delay = 0.5
@@ -92,7 +92,7 @@ subpixels = 1
 max_count = 128
 
 [mesh]
-max_count = 512
+max_count = 128
 
 [gui]
 max_count = 64
