@@ -1,6 +1,6 @@
 [project]
 title = Kinematic Walker
-version = 1.0
+version = 1.2
 write_log = 0
 compress_archive = 1
 publisher = unnamed
